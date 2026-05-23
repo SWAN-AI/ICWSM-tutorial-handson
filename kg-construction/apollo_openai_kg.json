@@ -1,0 +1,378 @@
+{
+  "nodes": [
+    {
+      "id": "Apollo program",
+      "type": "EVENT",
+      "description": "The United States human spaceflight program led by NASA that landed the first humans on the Moon in 1969.",
+      "source_docs": [
+        "Apollo program",
+        "Kennedy Space Center",
+        "Saturn V"
+      ],
+      "mentions": 3,
+      "profile": {
+        "summary": "The Apollo program, also known as Project Apollo, was a pivotal United States human spaceflight initiative led by NASA, aimed at landing humans on the Moon and safely returning them to Earth. Conceived in 1960 during the presidency of Dwight D. Eisenhower, the program was executed following Project Gemini and was dedicated to achieving President John F. Kennedy's national goal set in 1961. The program successfully landed the first humans on the Moon in 1969, marking a significant milestone in space exploration.\n\nThe Apollo program utilized the Saturn V rocket, a super heavy-lift launch vehicle developed specifically for lunar missions. The Saturn V was operational from 1967 to 1973 and was instrumental in nine crewed lunar flights. Launch operations for the Apollo missions were conducted from the John F. Kennedy Space Center in Florida, which has been NASA's primary launch site since 1968. The center played a crucial role in the success of the Apollo program, as well as subsequent space endeavors like Skylab and the Space Shuttle program.",
+        "key_facts": [
+          "The Apollo program was led by NASA and aimed to land humans on the Moon.",
+          "The program was conceived in 1960 during Dwight D. Eisenhower's presidency.",
+          "President John F. Kennedy dedicated the program to the goal of landing a man on the Moon before the end of the 1960s.",
+          "The Saturn V rocket, part of the Apollo program, was used for nine crewed lunar flights.",
+          "Launch operations for the Apollo program were conducted from the John F. Kennedy Space Center."
+        ],
+        "time_range": {
+          "start": "1960",
+          "end": "1973"
+        }
+      }
+    },
+    {
+      "id": "NASA",
+      "type": "ORGANIZATION",
+      "description": "The United States government agency responsible for the Apollo program.",
+      "source_docs": [
+        "Apollo 11",
+        "Apollo program",
+        "Kennedy Space Center",
+        "Saturn V"
+      ],
+      "mentions": 4
+    },
+    {
+      "id": "Moon",
+      "type": "LOCATION",
+      "description": "The celestial body where the Apollo program landed the first humans in 1969.",
+      "source_docs": [
+        "Apollo 11",
+        "Apollo program",
+        "Neil Armstrong",
+        "Saturn V"
+      ],
+      "mentions": 4
+    },
+    {
+      "id": "Dwight D. Eisenhower",
+      "type": "PERSON",
+      "description": "The U.S. President during whose presidency the Apollo program was conceived in 1960.",
+      "source_docs": [
+        "Apollo program"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "John F. Kennedy",
+      "type": "PERSON",
+      "description": "The U.S. President who dedicated the Apollo program to the national goal of landing a man on the Moon.",
+      "source_docs": [
+        "Apollo program"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "Apollo 11",
+      "type": "EVENT",
+      "description": "Apollo 11 was the American spaceflight that first landed humans on the Moon.",
+      "source_docs": [
+        "Apollo 11",
+        "Buzz Aldrin",
+        "Neil Armstrong"
+      ],
+      "mentions": 3,
+      "profile": {
+        "summary": "Apollo 11 was a historic American spaceflight and the fifth crewed mission of NASA's Apollo program, marking the first time humans landed on the Moon. The mission was launched in 1969 and was crewed by Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin \"Buzz\" Aldrin. Neil Armstrong became the first person to walk on the Moon, followed by Buzz Aldrin, while Michael Collins remained in lunar orbit aboard the Command Module. This mission was a significant achievement in space exploration and a pivotal moment in human history.",
+        "key_facts": [
+          "Apollo 11 was the first mission to land humans on the Moon.",
+          "The mission was part of NASA's Apollo program.",
+          "Neil Armstrong was the commander of Apollo 11 and the first person to walk on the Moon.",
+          "Buzz Aldrin was the Lunar Module Pilot and the second person to walk on the Moon.",
+          "Michael Collins piloted the Command Module and remained in lunar orbit."
+        ],
+        "time_range": {
+          "start": "1969",
+          "end": "1969"
+        }
+      }
+    },
+    {
+      "id": "Neil Alden Armstrong",
+      "type": "PERSON",
+      "description": "Neil Armstrong was the Commander of Apollo 11.",
+      "source_docs": [
+        "Apollo 11",
+        "Buzz Aldrin",
+        "Neil Armstrong"
+      ],
+      "mentions": 3
+    },
+    {
+      "id": "Michael Collins",
+      "type": "PERSON",
+      "description": "Michael Collins was the Command Module Pilot of Apollo 11.",
+      "source_docs": [
+        "Apollo 11",
+        "Buzz Aldrin"
+      ],
+      "mentions": 2
+    },
+    {
+      "id": "Edwin \"Buzz\" Aldrin",
+      "type": "PERSON",
+      "description": "Edwin \"Buzz\" Aldrin was the Lunar Module Pilot of Apollo 11.",
+      "source_docs": [
+        "Apollo 11",
+        "Buzz Aldrin"
+      ],
+      "mentions": 2
+    },
+    {
+      "id": "Saturn V",
+      "type": "ARTIFACT",
+      "description": "The Saturn V is a retired American super heavy-lift launch vehicle developed by NASA under the Apollo program for human exploration of the Moon.",
+      "source_docs": [
+        "Saturn V"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "Skylab",
+      "type": "ARTIFACT",
+      "description": "Skylab was the first American space station, launched by the Saturn V and converted from its own third stage.",
+      "source_docs": [
+        "Kennedy Space Center",
+        "Saturn V"
+      ],
+      "mentions": 2
+    },
+    {
+      "id": "Gemini 12",
+      "type": "EVENT",
+      "description": "Gemini 12 was a 1966 space mission during which Buzz Aldrin made three spacewalks.",
+      "source_docs": [
+        "Buzz Aldrin"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "Jim Lovell",
+      "type": "PERSON",
+      "description": "Jim Lovell was an astronaut whose death in 2025 made Buzz Aldrin the oldest living astronaut.",
+      "source_docs": [
+        "Buzz Aldrin"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "John F. Kennedy Space Center",
+      "type": "LOCATION",
+      "description": "A NASA field center located on Merritt Island, Florida, serving as the primary launch center for American spaceflight since 1968.",
+      "source_docs": [
+        "Kennedy Space Center"
+      ],
+      "mentions": 1,
+      "profile": {
+        "summary": "The John F. Kennedy Space Center (KSC) is a prominent NASA field center located on Merritt Island, Florida. Established as NASA's primary launch center since 1968, KSC has played a crucial role in American spaceflight, research, and technology. It has been the launch site for significant programs such as Apollo, Skylab, and the Space Shuttle, with operations conducted from Launch Complex 39. The center is strategically positioned on Florida's east coast, adjacent to the Cape Canaveral Space Force Station (CCSFS), with which it shares resources and facilities, fostering a collaborative environment for space exploration activities.",
+        "key_facts": [
+          "John F. Kennedy Space Center is located on Merritt Island, Florida.",
+          "KSC is part of NASA and serves as its primary launch center since 1968.",
+          "The Apollo, Skylab, and Space Shuttle programs were launched from KSC.",
+          "KSC is adjacent to Cape Canaveral Space Force Station, sharing resources and facilities.",
+          "Launch operations at KSC are conducted from Launch Complex 39."
+        ],
+        "time_range": {
+          "start": "1968",
+          "end": "ongoing"
+        }
+      }
+    },
+    {
+      "id": "Merritt Island",
+      "type": "LOCATION",
+      "description": "An island in Florida where the John F. Kennedy Space Center is located.",
+      "source_docs": [
+        "Kennedy Space Center"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "Cape Canaveral Space Force Station",
+      "type": "LOCATION",
+      "description": "A military space launch site adjacent to the Kennedy Space Center on the east coast of Florida.",
+      "source_docs": [
+        "Kennedy Space Center"
+      ],
+      "mentions": 1
+    },
+    {
+      "id": "Space Shuttle",
+      "type": "EVENT",
+      "description": "A NASA spaceflight program that was launched from Kennedy Space Center.",
+      "source_docs": [
+        "Kennedy Space Center"
+      ],
+      "mentions": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "Apollo program",
+      "target": "NASA",
+      "predicate": "led by",
+      "source_doc": "Apollo program"
+    },
+    {
+      "source": "Apollo program",
+      "target": "Moon",
+      "predicate": "landed on",
+      "source_doc": "Apollo program"
+    },
+    {
+      "source": "Apollo program",
+      "target": "Dwight D. Eisenhower",
+      "predicate": "conceived during",
+      "source_doc": "Apollo program"
+    },
+    {
+      "source": "Apollo program",
+      "target": "John F. Kennedy",
+      "predicate": "dedicated to goal by",
+      "source_doc": "Apollo program"
+    },
+    {
+      "source": "Apollo program",
+      "target": "John F. Kennedy Space Center",
+      "predicate": "launched from",
+      "source_doc": "Kennedy Space Center"
+    },
+    {
+      "source": "Apollo 11",
+      "target": "NASA",
+      "predicate": "was part of",
+      "source_doc": "Apollo 11"
+    },
+    {
+      "source": "Apollo 11",
+      "target": "Moon",
+      "predicate": "landed on",
+      "source_doc": "Apollo 11"
+    },
+    {
+      "source": "Neil Alden Armstrong",
+      "target": "Apollo 11",
+      "predicate": "commanded",
+      "source_doc": "Apollo 11"
+    },
+    {
+      "source": "Neil Alden Armstrong",
+      "target": "Apollo 11",
+      "predicate": "commanded",
+      "source_doc": "Neil Armstrong"
+    },
+    {
+      "source": "Neil Alden Armstrong",
+      "target": "Apollo 11",
+      "predicate": "part of",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Neil Alden Armstrong",
+      "target": "Moon",
+      "predicate": "walked on",
+      "source_doc": "Neil Armstrong"
+    },
+    {
+      "source": "Michael Collins",
+      "target": "Apollo 11",
+      "predicate": "piloted",
+      "source_doc": "Apollo 11"
+    },
+    {
+      "source": "Michael Collins",
+      "target": "Apollo 11",
+      "predicate": "part of",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Edwin \"Buzz\" Aldrin",
+      "target": "Apollo 11",
+      "predicate": "piloted",
+      "source_doc": "Apollo 11"
+    },
+    {
+      "source": "Edwin \"Buzz\" Aldrin",
+      "target": "Apollo 11",
+      "predicate": "part of",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Edwin \"Buzz\" Aldrin",
+      "target": "Moon",
+      "predicate": "walked on",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Edwin \"Buzz\" Aldrin",
+      "target": "Gemini 12",
+      "predicate": "part of",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Edwin \"Buzz\" Aldrin",
+      "target": "Jim Lovell",
+      "predicate": "became oldest living astronaut after",
+      "source_doc": "Buzz Aldrin"
+    },
+    {
+      "source": "Saturn V",
+      "target": "NASA",
+      "predicate": "developed by",
+      "source_doc": "Saturn V"
+    },
+    {
+      "source": "Saturn V",
+      "target": "Apollo program",
+      "predicate": "part of",
+      "source_doc": "Saturn V"
+    },
+    {
+      "source": "Saturn V",
+      "target": "Moon",
+      "predicate": "used for flights to",
+      "source_doc": "Saturn V"
+    },
+    {
+      "source": "Saturn V",
+      "target": "Skylab",
+      "predicate": "launched",
+      "source_doc": "Saturn V"
+    },
+    {
+      "source": "Skylab",
+      "target": "John F. Kennedy Space Center",
+      "predicate": "launched from",
+      "source_doc": "Kennedy Space Center"
+    },
+    {
+      "source": "John F. Kennedy Space Center",
+      "target": "Merritt Island",
+      "predicate": "located on",
+      "source_doc": "Kennedy Space Center"
+    },
+    {
+      "source": "John F. Kennedy Space Center",
+      "target": "NASA",
+      "predicate": "part of",
+      "source_doc": "Kennedy Space Center"
+    },
+    {
+      "source": "John F. Kennedy Space Center",
+      "target": "Cape Canaveral Space Force Station",
+      "predicate": "adjacent to",
+      "source_doc": "Kennedy Space Center"
+    },
+    {
+      "source": "Space Shuttle",
+      "target": "John F. Kennedy Space Center",
+      "predicate": "launched from",
+      "source_doc": "Kennedy Space Center"
+    }
+  ]
+}
