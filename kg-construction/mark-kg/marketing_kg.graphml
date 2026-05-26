@@ -1,0 +1,860 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="confidence" attr.type="double"/>
+<key id="d11" for="edge" attr.name="source_urls" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_docs" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_url" attr.type="string"/>
+<key id="d8" for="edge" attr.name="source_doc" attr.type="string"/>
+<key id="d7" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d6" for="edge" attr.name="predicate" attr.type="string"/>
+<key id="d5" for="node" attr.name="mentions" attr.type="long"/>
+<key id="d4" for="node" attr.name="source_urls" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_docs" attr.type="string"/>
+<key id="d2" for="node" attr.name="aliases" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="Marketing">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">The act of acquiring, satisfying, and retaining customers.</data>
+  <data key="d2">Marketing</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Marketing Mix">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Outlines the specifics of the product and how it will be sold, including the channels that will be used to advertise the product.</data>
+  <data key="d2">7 P's; Marketing Mix</data>
+  <data key="d3">Marketing — part 1; Marketing — part 2; Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">3</data>
+</node>
+<node id="Market Orientation">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Philosophies concerning the factors that should go into market planning.</data>
+  <data key="d2">Market Orientation</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Marketing Research">
+  <data key="d0">PROCESS</data>
+  <data key="d1">Conducted for the purpose of new product development or product improvement, often concerned with identifying the consumer's unmet needs.</data>
+  <data key="d2">Marketing Research</data>
+  <data key="d3">Marketing — part 1; Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">3</data>
+</node>
+<node id="Market Segmentation">
+  <data key="d0">PROCESS</data>
+  <data key="d1">Concerned with dividing markets into distinct groups of buyers on the basis of distinct needs, characteristics, or behaviors.</data>
+  <data key="d2">Market Segmentation</data>
+  <data key="d3">Marketing — part 1; Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Marketing Concept">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Proposes that to complete its organizational objectives, an organization should anticipate the needs and wants of potential consumers and satisfy them more effectively than its competitors.</data>
+  <data key="d2">Marketing Concept</data>
+  <data key="d3">Marketing — part 1; Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="American Marketing Association">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Defines marketing as the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.</data>
+  <data key="d2">AMA; American Marketing Association</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Philip Kotler">
+  <data key="d0">STAKEHOLDER</data>
+  <data key="d1">Prolific marketing author and educator who has evolved his definition of marketing.</data>
+  <data key="d2">Philip Kotler</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Chartered Institute of Marketing">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">Defines marketing from a customer-centric perspective, focusing on the management process responsible for identifying, anticipating and satisfying customer requirements profitably.</data>
+  <data key="d2">Chartered Institute of Marketing</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Agricultural Marketing Service">
+  <data key="d0">ORGANIZATION</data>
+  <data key="d1">A government agency that advertises on behalf of an entire industry or locality.</data>
+  <data key="d2">Agricultural Marketing Service</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Customer">
+  <data key="d0">STAKEHOLDER</data>
+  <data key="d1">Central to marketing, with needs and wants that marketing aims to satisfy.</data>
+  <data key="d2">Consumer; Customer</data>
+  <data key="d3">Marketing — part 1; Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Consumer">
+  <data key="d0">STAKEHOLDER</data>
+  <data key="d1">Target of marketing efforts, whose needs and wants are anticipated and satisfied.</data>
+  <data key="d2">Client; Consumer</data>
+  <data key="d3">Marketing — part 1; Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="B2B Marketing">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Marketing strategy or content geared towards a business or organization.</data>
+  <data key="d2">B2B Marketing</data>
+  <data key="d3">Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="B2C Marketing">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Tactics and strategies in which a company promotes its products and services to individual people.</data>
+  <data key="d2">B2C Marketing</data>
+  <data key="d3">Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="C2B Marketing">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">A business model where end consumers create products and services consumed by businesses and organizations.</data>
+  <data key="d2">C2B Marketing</data>
+  <data key="d3">Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="C2C Marketing">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">A market environment where one customer purchases goods from another customer using a third-party business or platform.</data>
+  <data key="d2">C2C Marketing; customer to customer marketing</data>
+  <data key="d3">Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Economies of Scale">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Producing as much as possible of a given product or service to achieve cost advantages.</data>
+  <data key="d2">Economies of Scale</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Economies of Scope">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Producing a variety of products to achieve cost advantages.</data>
+  <data key="d2">Economies of Scope</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Production Philosophy">
+  <data key="d0">STRATEGY</data>
+  <data key="d1">An approach that focuses on producing as much as possible to achieve economies of scale or scope.</data>
+  <data key="d2">Production Philosophy</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Selling Concept">
+  <data key="d0">STRATEGY</data>
+  <data key="d1">Focuses on selling and promoting existing products rather than developing new ones.</data>
+  <data key="d2">Selling Concept</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Customer Orientation">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">A firm can survive by producing goods that people are willing and able to buy.</data>
+  <data key="d2">Customer Orientation</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Organizational Orientation">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">The marketing department guides the actions of a company's other departments.</data>
+  <data key="d2">Organizational Orientation</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Societal Marketing Concept">
+  <data key="d0">STRATEGY</data>
+  <data key="d1">Embraces social responsibility beyond satisfying customers, including societal stakeholders.</data>
+  <data key="d2">Societal Marketing Concept</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Sustainable Marketing">
+  <data key="d0">STRATEGY</data>
+  <data key="d1">An extension of societal marketing focusing on sustainability.</data>
+  <data key="d2">Green Marketing; Sustainable Marketing</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Marketing Plan">
+  <data key="d0">PROCESS</data>
+  <data key="d1">Involves forging a plan for a firm's marketing activities to accomplish specific objectives.</data>
+  <data key="d2">Marketing Plan</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="4Ps">
+  <data key="d0">MODEL</data>
+  <data key="d1">Four broad categories of marketing decisions: product, price, promotion, and place.</data>
+  <data key="d2">4Ps</data>
+  <data key="d3">Marketing — part 3; Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Product">
+  <data key="d0">COMPONENT</data>
+  <data key="d1">Deals with the specifications of goods or services and their relation to end-user needs.</data>
+  <data key="d2">Product</data>
+  <data key="d3">Marketing — part 3; Marketing — part 6</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Price">
+  <data key="d0">COMPONENT</data>
+  <data key="d1">The process of setting a price for a product, including discounts.</data>
+  <data key="d2">Price</data>
+  <data key="d3">Marketing — part 3; Marketing — part 6</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Place">
+  <data key="d0">COMPONENT</data>
+  <data key="d1">Refers to how a product is distributed to the consumer.</data>
+  <data key="d2">Place</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Promotion">
+  <data key="d0">COMPONENT</data>
+  <data key="d1">Refers to the methods used to promote a product to consumers.</data>
+  <data key="d2">Promotion</data>
+  <data key="d3">Marketing — part 3; Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Distribution Channels">
+  <data key="d0">CHANNEL</data>
+  <data key="d1">Channels and intermediaries such as wholesalers and retailers who enable customers to access products or services.</data>
+  <data key="d2">Distribution Channels; Place; Placement</data>
+  <data key="d3">Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Social Media">
+  <data key="d0">CHANNEL</data>
+  <data key="d1">Outlets such as Facebook, Instagram, Twitter, Reddit, Pinterest, Snapchat, TikTok, LinkedIn, and YouTube that facilitate two-way communication between companies and their customers.</data>
+  <data key="d2">Social Media</data>
+  <data key="d3">Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="4Cs">
+  <data key="d0">MODEL</data>
+  <data key="d1">A modern marketing mix model proposed by Robert F. Lauterborn, focusing on Consumer, Cost, Convenience, and Communication.</data>
+  <data key="d2">4Cs</data>
+  <data key="d3">Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Marketing Environment">
+  <data key="d0">ENVIRONMENT</data>
+  <data key="d1">All factors (internal, external, direct, or indirect) that affect a firm's marketing decision-making/planning.</data>
+  <data key="d2">Marketing Environment</data>
+  <data key="d3">Marketing — part 4; Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="PESTLE Analysis">
+  <data key="d0">PROCESS</data>
+  <data key="d1">A method of assessing a firm's macro-environment, analyzing political, economic, social, technological, legal, and ecological factors.</data>
+  <data key="d2">PESTLE Analysis</data>
+  <data key="d3">Marketing — part 4</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Macro-environment">
+  <data key="d0">ENVIRONMENT</data>
+  <data key="d1">The larger societal forces that affect the micro-environment, including economic, social, and technological factors.</data>
+  <data key="d2">Macro-environment</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Micro-environment">
+  <data key="d0">ENVIRONMENT</data>
+  <data key="d1">The environment that includes factors over which a firm holds more control, such as customers, employees, suppliers, and media.</data>
+  <data key="d2">Micro-environment</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Internal environment">
+  <data key="d0">ENVIRONMENT</data>
+  <data key="d1">Factors inside the company itself, such as labor, inventory, company policy, logistics, budget, and capital assets.</data>
+  <data key="d2">Internal environment</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="STP">
+  <data key="d0">MODEL</data>
+  <data key="d1">A model in marketing that stands for Segmentation, Targeting, and Positioning.</data>
+  <data key="d2">STP</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="DAMP Criteria">
+  <data key="d0">METRIC_OR_CRITERION</data>
+  <data key="d1">Criteria used to gauge the viability of a target market, including Discernable, Accessible, Measurable, and Profitable.</data>
+  <data key="d2">DAMP Criteria</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Product Life Cycle (PLC)">
+  <data key="d0">MODEL</data>
+  <data key="d1">A tool used by marketing managers to gauge the progress of a product through introduction, growth, maturity, and decline stages.</data>
+  <data key="d2">Product Life Cycle (PLC)</data>
+  <data key="d3">Marketing — part 5; Marketing — part 6</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">2</data>
+</node>
+<node id="Sales Promotion">
+  <data key="d0">STRATEGY</data>
+  <data key="d1">A strategy used by firms to increase sales through various promotional activities.</data>
+  <data key="d2">Sales Promotion</data>
+  <data key="d3">Marketing — part 6</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Niche Market">
+  <data key="d0">ENVIRONMENT</data>
+  <data key="d1">A specific, defined segment of the market that a product may serve.</data>
+  <data key="d2">Niche Market</data>
+  <data key="d3">Marketing — part 6</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="CONCEPT">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">CONCEPT</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="business management and commerce">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">business management and commerce</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="seller">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">seller</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="marketing firms">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">marketing firms</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="trade association or government agency">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">trade association or government agency</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="characteristics of the product's target market">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">characteristics of the product's target market</data>
+  <data key="d3">Marketing — part 1</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="e-commerce technology">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">e-commerce technology</data>
+  <data key="d3">Marketing — part 2</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="STRATEGY">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">STRATEGY</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="PROCESS">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">PROCESS</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="MODEL">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">MODEL</data>
+  <data key="d3">Marketing — part 3</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Targeting">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">Targeting</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<node id="Positioning">
+  <data key="d0">CONCEPT</data>
+  <data key="d1">Entity inferred from relation endpoint.</data>
+  <data key="d2">Positioning</data>
+  <data key="d3">Marketing — part 5</data>
+  <data key="d4">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d5">1</data>
+</node>
+<edge source="Marketing" target="CONCEPT">
+  <data key="d6">is_a</data>
+  <data key="d7">Marketing is the act of acquiring, satisfying and retaining customers.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="business management and commerce">
+  <data key="d6">part_of</data>
+  <data key="d7">It is one of the primary components of business management and commerce.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="seller">
+  <data key="d6">conducted_by</data>
+  <data key="d7">Marketing is usually conducted by the seller, typically a retailer or manufacturer.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="marketing firms">
+  <data key="d6">conducted_by</data>
+  <data key="d7">Sometimes tasks are contracted to dedicated marketing firms, like a media, market research, or advertising agency.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="trade association or government agency">
+  <data key="d6">conducted_by</data>
+  <data key="d7">Sometimes, a trade association or government agency (such as the Agricultural Marketing Service) advertises on behalf of an entire industry or locality.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="American Marketing Association">
+  <data key="d6">defined_by</data>
+  <data key="d7">Marketing is currently defined by the American Marketing Association (AMA) as "the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large".</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="Philip Kotler">
+  <data key="d6">defined_by</data>
+  <data key="d7">Philip Kotler has evolved his definition of marketing.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing" target="Chartered Institute of Marketing">
+  <data key="d6">defined_by</data>
+  <data key="d7">The Chartered Institute of Marketing defines marketing from a customer-centric perspective.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Mix" target="Marketing Environment">
+  <data key="d6">is_influenced_by</data>
+  <data key="d7">The marketing mix...is affected by the environment surrounding the product.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Mix" target="Marketing Research">
+  <data key="d6">is_influenced_by</data>
+  <data key="d7">The marketing mix...is affected by the results of marketing research and market research.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Mix" target="characteristics of the product's target market">
+  <data key="d6">is_influenced_by</data>
+  <data key="d7">The marketing mix...is affected by...the characteristics of the product's target market.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Mix" target="MODEL">
+  <data key="d6">is_a</data>
+  <data key="d7">A marketing mix is a foundational tool used to guide decision making in marketing.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Research" target="Marketing Research">
+  <data key="d6">subset_of</data>
+  <data key="d7">Market research is a subset of marketing research.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Market Segmentation" target="Customer">
+  <data key="d6">related_to</data>
+  <data key="d7">Customer needs are central to market segmentation which is concerned with dividing markets into distinct groups of buyers on the basis of "distinct needs, characteristics, or behaviors who might require separate products or marketing mixes".</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Concept" target="Marketing">
+  <data key="d6">related_to</data>
+  <data key="d7">Marketing and Marketing Concepts are directly related.</data>
+  <data key="d8">Marketing — part 1</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 1</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Concept" target="STRATEGY">
+  <data key="d6">is_a</data>
+  <data key="d7">Marketing concept: This is the most common concept used in contemporary marketing, and is a customer-centric approach based on products that suit new consumer tastes.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="B2B Marketing" target="Marketing Mix">
+  <data key="d6">includes</data>
+  <data key="d7">The 7 P's of B2B marketing are product, price, place, promotion, people, process, and physical evidence.</data>
+  <data key="d8">Marketing — part 2</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 2</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="B2B Marketing" target="B2C Marketing">
+  <data key="d6">contrasts_with</data>
+  <data key="d7">The different goals of B2B and B2C marketing lead to differences in the B2B and B2C markets.</data>
+  <data key="d8">Marketing — part 2</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 2</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="B2C Marketing" target="B2B Marketing">
+  <data key="d6">contrasts_with</data>
+  <data key="d7">The different goals of B2B and B2C marketing lead to differences in the B2B and B2C markets.</data>
+  <data key="d8">Marketing — part 2</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 2</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="C2B Marketing" target="B2C Marketing">
+  <data key="d6">contrasts_with</data>
+  <data key="d7">It is diametrically opposed to the popular concept of B2C or business-to-consumer.</data>
+  <data key="d8">Marketing — part 2</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 2</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="C2C Marketing" target="e-commerce technology">
+  <data key="d6">is_influenced_by</data>
+  <data key="d7">C2C companies are a new type of model that has emerged with e-commerce technology and the sharing economy.</data>
+  <data key="d8">Marketing — part 2</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 2</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Production Philosophy" target="STRATEGY">
+  <data key="d6">is_a</data>
+  <data key="d7">Kotler and Armstrong note that the production philosophy is "one of the oldest philosophies that guides sellers... [and] is still useful in some situations".</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Selling Concept" target="STRATEGY">
+  <data key="d6">is_a</data>
+  <data key="d7">Selling concept: focuses on the selling/promotion of the firm's existing products, rather than developing new products to satisfy unmet needs or wants.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Societal Marketing Concept" target="STRATEGY">
+  <data key="d6">is_a</data>
+  <data key="d7">Societal marketing concept: Social responsibility that goes beyond satisfying customers and providing superior value embraces societal stakeholders such as employees, customers, and local communities.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Sustainable Marketing" target="Societal Marketing Concept">
+  <data key="d6">extends</data>
+  <data key="d7">Sustainable marketing or green marketing is an extension of societal marketing.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Marketing Plan" target="PROCESS">
+  <data key="d6">part_of</data>
+  <data key="d7">The area of marketing planning involves forging a plan for a firm's marketing activities.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="4Ps" target="Marketing Mix">
+  <data key="d6">part_of</data>
+  <data key="d7">The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Product" target="4Ps">
+  <data key="d6">part_of</data>
+  <data key="d7">The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Product" target="Niche Market">
+  <data key="d6">is_influenced_by</data>
+  <data key="d7">if a product services a niche market, or is complementary to another product, it may continue the manufacture of the product, despite a low level of sales/revenue being accrued.</data>
+  <data key="d8">Marketing — part 6</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 6</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="Price" target="4Ps">
+  <data key="d6">part_of</data>
+  <data key="d7">The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Place" target="4Ps">
+  <data key="d6">part_of</data>
+  <data key="d7">The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Promotion" target="4Ps">
+  <data key="d6">part_of</data>
+  <data key="d7">The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place.; This fourth P is focused on providing a message to get a response from consumers.</data>
+  <data key="d8">Marketing — part 3</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 3; Marketing — part 4</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Distribution Channels" target="4Ps">
+  <data key="d6">part_of</data>
+  <data key="d7">This third P has also sometimes been called Place or Placement, referring to the channel by which a product or service is sold.</data>
+  <data key="d8">Marketing — part 4</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 4</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Social Media" target="Promotion">
+  <data key="d6">uses</data>
+  <data key="d7">Social media is used to facilitate two-way communication between companies and their customers.</data>
+  <data key="d8">Marketing — part 4</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 4</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="4Cs" target="4Ps">
+  <data key="d6">contrasts_with</data>
+  <data key="d7">In response to environmental and technological changes in marketing, as well as criticisms towards the 4Ps approach, the 4Cs has emerged as a modern marketing mix model.</data>
+  <data key="d8">Marketing — part 4</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 4</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="PESTLE Analysis" target="Marketing Environment">
+  <data key="d6">part_of</data>
+  <data key="d7">A common method of assessing a firm's macro-environment is via a PESTLE (Political, Economic, Social, Technological, Legal, Ecological) analysis.</data>
+  <data key="d8">Marketing — part 4</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 4</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Macro-environment" target="Marketing Environment">
+  <data key="d6">part_of</data>
+  <data key="d7">The macro-environment, over which a firm holds a greater amount (though not necessarily total) control, typically includes: Customers/consumers, Employees, Suppliers and the Media.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Micro-environment" target="Marketing Environment">
+  <data key="d6">part_of</data>
+  <data key="d7">The micro-environment, over which a firm holds a greater amount (though not necessarily total) control, typically includes: Customers/consumers, Employees, Suppliers and the Media.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="Internal environment" target="Marketing Environment">
+  <data key="d6">part_of</data>
+  <data key="d7">The internal environment, which includes the factors inside of the company itself.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="STP" target="Market Segmentation">
+  <data key="d6">includes</data>
+  <data key="d7">Market segmentation can be defined in terms of the STP acronym, meaning Segmentation, Targeting, and Positioning.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="STP" target="Targeting">
+  <data key="d6">includes</data>
+  <data key="d7">Market segmentation can be defined in terms of the STP acronym, meaning Segmentation, Targeting, and Positioning.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="STP" target="Positioning">
+  <data key="d6">includes</data>
+  <data key="d7">Market segmentation can be defined in terms of the STP acronym, meaning Segmentation, Targeting, and Positioning.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.9</data>
+</edge>
+<edge source="DAMP Criteria" target="Targeting">
+  <data key="d6">applies_to</data>
+  <data key="d7">The DAMP acronym is used as criteria to gauge the viability of a target market.</data>
+  <data key="d8">Marketing — part 5</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 5</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="Product Life Cycle (PLC)" target="Product">
+  <data key="d6">includes</data>
+  <data key="d7">During decline, demand for a good begins to taper off, and the firm may opt to discontinue the manufacture of the product.</data>
+  <data key="d8">Marketing — part 6</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 6</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+<edge source="Sales Promotion" target="Price">
+  <data key="d6">uses</data>
+  <data key="d7">Firms may use sales promotions to raise sales.</data>
+  <data key="d8">Marketing — part 6</data>
+  <data key="d9">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d10">Marketing — part 6</data>
+  <data key="d11">https://en.wikipedia.org/wiki/Marketing</data>
+  <data key="d12">0.85</data>
+</edge>
+</graph></graphml>
