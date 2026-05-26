@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-26">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="predicate" type="string" />
+      <attribute id="7" title="evidence" type="string" />
+      <attribute id="8" title="source_doc" type="string" />
+      <attribute id="9" title="source_url" type="string" />
+      <attribute id="10" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="description" type="string" />
+      <attribute id="2" title="aliases" type="string" />
+      <attribute id="3" title="source_docs" type="string" />
+      <attribute id="4" title="source_urls" type="string" />
+      <attribute id="5" title="mentions" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Marketing" label="Marketing">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="The act of acquiring, satisfying and retaining customers." />
+          <attvalue for="2" value="[&quot;Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Business Management" label="Business Management">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="One of the primary components of business management and commerce." />
+          <attvalue for="2" value="[&quot;Business Management&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="B2B Marketing" label="B2B Marketing">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="Marketing strategy geared towards businesses or organizations." />
+          <attvalue for="2" value="[&quot;B2B Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="B2C Marketing" label="B2C Marketing">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="Marketing strategy promoting products and services to individual consumers." />
+          <attvalue for="2" value="[&quot;B2C Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Marketing Firms" label="Marketing Firms">
+        <attvalues>
+          <attvalue for="0" value="STAKEHOLDER" />
+          <attvalue for="1" value="Dedicated firms like media, market research, or advertising agencies." />
+          <attvalue for="2" value="[&quot;Marketing Firms&quot;, &quot;media agencies&quot;, &quot;market research agencies&quot;, &quot;advertising agencies&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Trade Association" label="Trade Association">
+        <attvalues>
+          <attvalue for="0" value="STAKEHOLDER" />
+          <attvalue for="1" value="Organizations that advertise on behalf of an entire industry." />
+          <attvalue for="2" value="[&quot;Trade Association&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Government Agency" label="Government Agency">
+        <attvalues>
+          <attvalue for="0" value="STAKEHOLDER" />
+          <attvalue for="1" value="Agencies like the Agricultural Marketing Service that advertise on behalf of an industry." />
+          <attvalue for="2" value="[&quot;Government Agency&quot;, &quot;Agricultural Marketing Service&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Market Orientation" label="Market Orientation">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Philosophies concerning the factors that should go into market planning." />
+          <attvalue for="2" value="[&quot;Market Orientation&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Mix" label="Marketing Mix">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="A foundational tool used to guide decision making in marketing." />
+          <attvalue for="2" value="[&quot;Marketing Mix&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Marketing Research" label="Marketing Research">
+        <attvalues>
+          <attvalue for="0" value="PROCESS" />
+          <attvalue for="1" value="Research that affects the marketing mix and product characteristics." />
+          <attvalue for="2" value="[&quot;Marketing Research&quot;, &quot;Marketing research&quot;, &quot;Market research&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Philip Kotler" label="Philip Kotler">
+        <attvalues>
+          <attvalue for="0" value="STAKEHOLDER" />
+          <attvalue for="1" value="Prolific marketing author and educator." />
+          <attvalue for="2" value="[&quot;Philip Kotler&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sales Process Engineering" label="Sales Process Engineering">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Perspective that defines marketing as interconnected processes." />
+          <attvalue for="2" value="[&quot;Sales Process Engineering&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Chartered Institute of Marketing" label="Chartered Institute of Marketing">
+        <attvalues>
+          <attvalue for="0" value="ORGANIZATION" />
+          <attvalue for="1" value="Defines marketing from a customer-centric perspective." />
+          <attvalue for="2" value="[&quot;Chartered Institute of Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Science" label="Marketing Science">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Recognized as a science using social sciences, psychology, sociology, etc." />
+          <attvalue for="2" value="[&quot;Marketing Science&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Concept" label="Marketing Concept">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="A customer-centric approach based on products that suit new consumer tastes." />
+          <attvalue for="2" value="[&quot;Marketing Concept&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Needs" label="Needs">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Something necessary for people to live a healthy, stable and safe life." />
+          <attvalue for="2" value="[&quot;Needs&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Wants" label="Wants">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Something that is desired, wished for or aspired to." />
+          <attvalue for="2" value="[&quot;Wants&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Demands" label="Demands">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Needs and wants backed by the ability to pay." />
+          <attvalue for="2" value="[&quot;Demands&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Market Segmentation" label="Market Segmentation">
+        <attvalues>
+          <attvalue for="0" value="PROCESS" />
+          <attvalue for="1" value="Dividing markets into distinct groups of buyers based on needs, characteristics, or behaviors." />
+          <attvalue for="2" value="[&quot;Market Segmentation&quot;, &quot;Segmentation&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;, &quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Needs-based Segmentation" label="Needs-based Segmentation">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="Places the customers' desires at the forefront of product design and marketing." />
+          <attvalue for="2" value="[&quot;Needs-based Segmentation&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 1&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="C2B Marketing" label="C2B Marketing">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="Business model where consumers create products and services consumed by businesses." />
+          <attvalue for="2" value="[&quot;C2B Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="C2C Marketing" label="C2C Marketing">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="Market environment where customers purchase goods from other customers using a third-party platform." />
+          <attvalue for="2" value="[&quot;C2C Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="B2B Product Purchasers" label="B2B Product Purchasers">
+        <attvalues>
+          <attvalue for="0" value="STAKEHOLDER" />
+          <attvalue for="1" value="Categories include producers, resellers, governments, and institutions." />
+          <attvalue for="2" value="[&quot;B2B Product Purchasers&quot;, &quot;producers&quot;, &quot;resellers&quot;, &quot;governments&quot;, &quot;institutions&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Management Orientations" label="Marketing Management Orientations">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Philosophy of business management or organizational culture." />
+          <attvalue for="2" value="[&quot;Marketing Management Orientations&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Product Concept" label="Product Concept">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Focus on product quality, largely supplanted by marketing orientation." />
+          <attvalue for="2" value="[&quot;Product Concept&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Production Concept" label="Production Concept">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Specializes in production efficiency." />
+          <attvalue for="2" value="[&quot;Production Concept&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 2&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Production Philosophy" label="Production Philosophy">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="A philosophy focusing on producing as much as possible to achieve economies of scale or scope." />
+          <attvalue for="2" value="[&quot;Production Philosophy&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Selling Concept" label="Selling Concept">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Focuses on selling and promoting existing products rather than developing new ones." />
+          <attvalue for="2" value="[&quot;Selling Concept&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Customer Orientation" label="Customer Orientation">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="A strategy where firms produce goods that people are willing and able to buy." />
+          <attvalue for="2" value="[&quot;Customer Orientation&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Organizational Orientation" label="Organizational Orientation">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="The marketing department guides the actions of a company's other departments." />
+          <attvalue for="2" value="[&quot;Organizational Orientation&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Societal Marketing Concept" label="Societal Marketing Concept">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="Embraces social responsibility beyond satisfying customers." />
+          <attvalue for="2" value="[&quot;Societal Marketing Concept&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sustainable Marketing" label="Sustainable Marketing">
+        <attvalues>
+          <attvalue for="0" value="CONCEPT" />
+          <attvalue for="1" value="An extension of societal marketing focusing on sustainability." />
+          <attvalue for="2" value="[&quot;Sustainable Marketing&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Plan" label="Marketing Plan">
+        <attvalues>
+          <attvalue for="0" value="PROCESS" />
+          <attvalue for="1" value="Involves forging a plan for a firm's marketing activities." />
+          <attvalue for="2" value="[&quot;Marketing Plan&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="4Ps" label="4Ps">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="A marketing mix model consisting of Product, Price, Place, and Promotion." />
+          <attvalue for="2" value="[&quot;4Ps&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;, &quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Product" label="Product">
+        <attvalues>
+          <attvalue for="0" value="COMPONENT" />
+          <attvalue for="1" value="Deals with the specifications of goods or services and their relation to end-user needs." />
+          <attvalue for="2" value="[&quot;Product&quot;, &quot;Deals with the specifications of goods or services and their relation to end-user needs.&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Price" label="Price">
+        <attvalues>
+          <attvalue for="0" value="COMPONENT" />
+          <attvalue for="1" value="The process of setting a price for a product, including discounts." />
+          <attvalue for="2" value="[&quot;Price&quot;, &quot;The process of setting a price for a product, including discounts.&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Place" label="Place">
+        <attvalues>
+          <attvalue for="0" value="COMPONENT" />
+          <attvalue for="1" value="Refers to distribution channels and how products reach consumers." />
+          <attvalue for="2" value="[&quot;Place&quot;, &quot;Refers to distribution channels and how products reach consumers.&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Promotion" label="Promotion">
+        <attvalues>
+          <attvalue for="0" value="COMPONENT" />
+          <attvalue for="1" value="Includes all aspects of marketing communications such as advertising, sales promotion, public relations, and personal selling." />
+          <attvalue for="2" value="[&quot;Promotion&quot;, &quot;The methods used to communicate with consumers and promote products.&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 3&quot;, &quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Distribution Channels" label="Distribution Channels">
+        <attvalues>
+          <attvalue for="0" value="CHANNEL" />
+          <attvalue for="1" value="The means by which a product gets to the customer, including intermediaries like wholesalers and retailers." />
+          <attvalue for="2" value="[&quot;Distribution Channels&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Social Media" label="Social Media">
+        <attvalues>
+          <attvalue for="0" value="CHANNEL" />
+          <attvalue for="1" value="Platforms like Facebook, Instagram, Twitter, etc., used for two-way communication between companies and customers." />
+          <attvalue for="2" value="[&quot;Social Media&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Inside-Out Approach" label="Inside-Out Approach">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="An approach where the organization focuses on its own goals and objectives." />
+          <attvalue for="2" value="[&quot;Inside-Out Approach&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Outside-In Approach" label="Outside-In Approach">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="An approach that seeks to understand the needs and wants of the consumer first." />
+          <attvalue for="2" value="[&quot;Outside-In Approach&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="4Cs" label="4Cs">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="A consumer-oriented marketing mix model consisting of Consumer, Cost, Convenience, and Communication." />
+          <attvalue for="2" value="[&quot;4Cs&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Marketing Environment" label="Marketing Environment">
+        <attvalues>
+          <attvalue for="0" value="ENVIRONMENT" />
+          <attvalue for="1" value="All factors affecting a firm's marketing decision-making, including internal, external, direct, or indirect factors." />
+          <attvalue for="2" value="[&quot;Marketing Environment&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="PESTLE Analysis" label="PESTLE Analysis">
+        <attvalues>
+          <attvalue for="0" value="PROCESS" />
+          <attvalue for="1" value="A method of assessing a firm's macro-environment through Political, Economic, Social, Technological, Legal, and Ecological factors." />
+          <attvalue for="2" value="[&quot;PESTLE Analysis&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 4&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Macro-environment" label="Macro-environment">
+        <attvalues>
+          <attvalue for="0" value="ENVIRONMENT" />
+          <attvalue for="1" value="Factors such as economic growth, inflation, unemployment, social trends, and technology's impact on society and business processes." />
+          <attvalue for="2" value="[&quot;Macro-environment&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Micro-environment" label="Micro-environment">
+        <attvalues>
+          <attvalue for="0" value="ENVIRONMENT" />
+          <attvalue for="1" value="Includes Customers/consumers, Employees, Suppliers, and the Media, over which a firm holds more control." />
+          <attvalue for="2" value="[&quot;Micro-environment&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Internal environment" label="Internal environment">
+        <attvalues>
+          <attvalue for="0" value="ENVIRONMENT" />
+          <attvalue for="1" value="Factors inside the company itself, such as Labor, Inventory, Company Policy, Logistics, Budget, and Capital Assets." />
+          <attvalue for="2" value="[&quot;Internal environment&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="STP" label="STP">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="Acronym for Segmentation, Targeting, and Positioning." />
+          <attvalue for="2" value="[&quot;STP&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="DAMP Criteria" label="DAMP Criteria">
+        <attvalues>
+          <attvalue for="0" value="METRIC_OR_CRITERION" />
+          <attvalue for="1" value="Criteria to gauge the viability of a target market: Discernable, Accessible, Measurable, Profitable." />
+          <attvalue for="2" value="[&quot;DAMP&quot;, &quot;Criteria to gauge the viability of a target market: Discernable, Accessible, Measurable, Profitable&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Product Life Cycle (PLC)" label="Product Life Cycle (PLC)">
+        <attvalues>
+          <attvalue for="0" value="MODEL" />
+          <attvalue for="1" value="A tool to gauge the progress of a product, including introduction, growth, maturity, and decline stages." />
+          <attvalue for="2" value="[&quot;Product life cycle (PLC)&quot;, &quot;Product Lifecycle&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 5&quot;, &quot;Marketing — part 6&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sales Promotions" label="Sales Promotions">
+        <attvalues>
+          <attvalue for="0" value="STRATEGY" />
+          <attvalue for="1" value="Firms may use sales promotions to raise sales." />
+          <attvalue for="2" value="[&quot;Sales Promotions&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 6&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Niche Market" label="Niche Market">
+        <attvalues>
+          <attvalue for="0" value="ENVIRONMENT" />
+          <attvalue for="1" value="A specific, defined segment of the market." />
+          <attvalue for="2" value="[&quot;Niche Market&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 6&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Complementary Product" label="Complementary Product">
+        <attvalues>
+          <attvalue for="0" value="COMPONENT" />
+          <attvalue for="1" value="A product that adds value to another product." />
+          <attvalue for="2" value="[&quot;Complementary Product&quot;, &quot;A product that adds value to another product.&quot;]" />
+          <attvalue for="3" value="[&quot;Marketing — part 6&quot;]" />
+          <attvalue for="4" value="[&quot;https://en.wikipedia.org/wiki/Marketing&quot;]" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Marketing" target="Business Management" id="0">
+        <attvalues>
+          <attvalue for="6" value="part_of" />
+          <attvalue for="7" value="It is one of the primary components of business management and commerce." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="B2B Marketing" id="1">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="Products can be marketed to other businesses (B2B)." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="B2C Marketing" id="2">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="Products can be marketed directly to consumers (B2C)." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="Marketing Firms" id="3">
+        <attvalues>
+          <attvalue for="6" value="conducted_by" />
+          <attvalue for="7" value="Sometimes tasks are contracted to dedicated marketing firms." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="Trade Association" id="4">
+        <attvalues>
+          <attvalue for="6" value="conducted_by" />
+          <attvalue for="7" value="A trade association advertises on behalf of an entire industry." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="Government Agency" id="5">
+        <attvalues>
+          <attvalue for="6" value="conducted_by" />
+          <attvalue for="7" value="A government agency advertises on behalf of an entire industry." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="Market Orientation" id="6">
+        <attvalues>
+          <attvalue for="6" value="guided_by" />
+          <attvalue for="7" value="Market orientations are philosophies concerning the factors that should go into market planning." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing" target="Marketing Science" id="7">
+        <attvalues>
+          <attvalue for="6" value="is_a" />
+          <attvalue for="7" value="The profession is now widely recognized as a science." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="B2B Marketing" target="B2B Product Purchasers" id="8">
+        <attvalues>
+          <attvalue for="6" value="targets" />
+          <attvalue for="7" value="The four major categories of B2B product purchasers are: Producers, Resellers, Governments, Institutions." />
+          <attvalue for="8" value="Marketing — part 2" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="B2B Marketing" target="B2C Marketing" id="9">
+        <attvalues>
+          <attvalue for="6" value="contrasts_with" />
+          <attvalue for="7" value="The different goals of B2B and B2C marketing lead to differences in the B2B and B2C markets." />
+          <attvalue for="8" value="Marketing — part 2" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Mix" target="Marketing Research" id="10">
+        <attvalues>
+          <attvalue for="6" value="is_influenced_by" />
+          <attvalue for="7" value="The marketing mix is affected by the results of marketing research." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Mix" target="4Ps" id="11">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="The marketing mix represents the basic tools that marketers can use to bring their products or services to the market." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Philip Kotler" target="Marketing" id="12">
+        <attvalues>
+          <attvalue for="6" value="defined_by" />
+          <attvalue for="7" value="Philip Kotler has evolved his definition of marketing." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sales Process Engineering" target="Marketing" id="13">
+        <attvalues>
+          <attvalue for="6" value="defined_by" />
+          <attvalue for="7" value="A related definition, from the sales process engineering perspective." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chartered Institute of Marketing" target="Marketing" id="14">
+        <attvalues>
+          <attvalue for="6" value="defined_by" />
+          <attvalue for="7" value="The Chartered Institute of Marketing defines marketing from a customer-centric perspective." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Concept" target="Marketing" id="15">
+        <attvalues>
+          <attvalue for="6" value="related_to" />
+          <attvalue for="7" value="Marketing and Marketing Concepts are directly related." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Concept" target="Customer Orientation" id="16">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="The marketing orientation includes: Customer orientation." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Concept" target="Organizational Orientation" id="17">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="The marketing orientation includes: Organizational orientation." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Market Segmentation" target="Needs" id="18">
+        <attvalues>
+          <attvalue for="6" value="uses" />
+          <attvalue for="7" value="Customer needs are central to market segmentation." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Market Segmentation" target="Wants" id="19">
+        <attvalues>
+          <attvalue for="6" value="uses" />
+          <attvalue for="7" value="Customer needs are central to market segmentation." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Market Segmentation" target="Demands" id="20">
+        <attvalues>
+          <attvalue for="6" value="uses" />
+          <attvalue for="7" value="Customer needs are central to market segmentation." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Market Segmentation" target="STP" id="21">
+        <attvalues>
+          <attvalue for="6" value="part_of" />
+          <attvalue for="7" value="Market segmentation can be defined in terms of the STP acronym, meaning Segmentation, Targeting, and Positioning." />
+          <attvalue for="8" value="Marketing — part 5" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Needs-based Segmentation" target="Market Segmentation" id="22">
+        <attvalues>
+          <attvalue for="6" value="subset_of" />
+          <attvalue for="7" value="Needs-based segmentation is one of the most effective ways to segment a market." />
+          <attvalue for="8" value="Marketing — part 1" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="C2B Marketing" target="B2C Marketing" id="23">
+        <attvalues>
+          <attvalue for="6" value="contrasts_with" />
+          <attvalue for="7" value="C2B marketing is diametrically opposed to the popular concept of B2C." />
+          <attvalue for="8" value="Marketing — part 2" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Management Orientations" target="Product Concept" id="24">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="The most commonly cited orientations are as follows: Product concept." />
+          <attvalue for="8" value="Marketing — part 2" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Management Orientations" target="Production Concept" id="25">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="The most commonly cited orientations are as follows: Production concept." />
+          <attvalue for="8" value="Marketing — part 2" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Societal Marketing Concept" target="Sustainable Marketing" id="26">
+        <attvalues>
+          <attvalue for="6" value="extends" />
+          <attvalue for="7" value="Sustainable marketing or green marketing is an extension of societal marketing." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Marketing Plan" target="Marketing Mix" id="27">
+        <attvalues>
+          <attvalue for="6" value="part_of" />
+          <attvalue for="7" value="The marketing plan typically devotes a section to the marketing mix." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="4Ps" target="Product" id="28">
+        <attvalues>
+          <attvalue for="6" value="has_component" />
+          <attvalue for="7" value="The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="4Ps" target="Price" id="29">
+        <attvalues>
+          <attvalue for="6" value="has_component" />
+          <attvalue for="7" value="The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="4Ps" target="Place" id="30">
+        <attvalues>
+          <attvalue for="6" value="has_component" />
+          <attvalue for="7" value="The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="4Ps" target="Promotion" id="31">
+        <attvalues>
+          <attvalue for="6" value="has_component" />
+          <attvalue for="7" value="The 4Ps refers to four broad categories of marketing decisions, namely: product, price, promotion, and place." />
+          <attvalue for="8" value="Marketing — part 3" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="4Cs" target="4Ps" id="32">
+        <attvalues>
+          <attvalue for="6" value="contrasts_with" />
+          <attvalue for="7" value="In response to environmental and technological changes in marketing, as well as criticisms towards the 4Ps approach, the 4Cs has emerged as a modern marketing mix model." />
+          <attvalue for="8" value="Marketing — part 4" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Micro-environment" target="Macro-environment" id="33">
+        <attvalues>
+          <attvalue for="6" value="is_influenced_by" />
+          <attvalue for="7" value="In contrast to the macro-environment, an organization holds a greater (though not complete) degree of control over these factors." />
+          <attvalue for="8" value="Marketing — part 5" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Internal environment" target="Micro-environment" id="34">
+        <attvalues>
+          <attvalue for="6" value="part_of" />
+          <attvalue for="7" value="The internal environment, which includes the factors inside of the company itself." />
+          <attvalue for="8" value="Marketing — part 5" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="DAMP Criteria" target="Market Segmentation" id="35">
+        <attvalues>
+          <attvalue for="6" value="applies_to" />
+          <attvalue for="7" value="The DAMP acronym is used as criteria to gauge the viability of a target market." />
+          <attvalue for="8" value="Marketing — part 5" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product Life Cycle (PLC)" target="Marketing Research" id="36">
+        <attvalues>
+          <attvalue for="6" value="uses" />
+          <attvalue for="7" value="The PLC is based on a few key assumptions, including: A given product would possess introduction, growth, maturity, and decline stage." />
+          <attvalue for="8" value="Marketing — part 5" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product Life Cycle (PLC)" target="Niche Market" id="37">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="if a product services a niche market, it may continue the manufacture of the product." />
+          <attvalue for="8" value="Marketing — part 6" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product Life Cycle (PLC)" target="Complementary Product" id="38">
+        <attvalues>
+          <attvalue for="6" value="includes" />
+          <attvalue for="7" value="if a product is complementary to another product, it may continue the manufacture of the product." />
+          <attvalue for="8" value="Marketing — part 6" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sales Promotions" target="Product Life Cycle (PLC)" id="39">
+        <attvalues>
+          <attvalue for="6" value="uses" />
+          <attvalue for="7" value="Firms may use sales promotions to raise sales." />
+          <attvalue for="8" value="Marketing — part 6" />
+          <attvalue for="9" value="https://en.wikipedia.org/wiki/Marketing" />
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
